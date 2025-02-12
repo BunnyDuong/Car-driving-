@@ -4,13 +4,13 @@ In this project, I'm using data from https://www.dropbox.com/scl/fo/uscpkxvmwb4h
 The project is about building a CNN model that computes steering angle as output, it follows those steps:
 1. Separate data into train and validation samples
 2. Augmentation with techniques:
-  Random Flip
-  Random salt and pepper noise
-  Random translate
-  Random shadow
-  Random brightness
-  YUV transformation
-  Crop
+  - Random Flip
+  - Random salt and pepper noise
+  - Random translate
+  - Random shadow
+  - Random brightness
+  - YUV transformation
+  - Crop
 3. Driving-error data: to make the vehicle driving on track, we use not only center-lane driving data but also left and right-lande driving of the road so that our car can correct its mistake whenever it's off track
 4. Generate images for each batch using lazy generator so that our RAM will not be exceeded
 5. The CNN models are built following the paper but in this project, I used some dropout layer after dense-layers as I realized that the model is overfitting as the training set has a low mean square score but high in the validation set
