@@ -1,4 +1,4 @@
-# Car-driving-
+# Autonomous car driving
 In this project, I'm using data from https://www.dropbox.com/scl/fo/uscpkxvmwb4hx3tlm0wo7/AM1NFQ4k6zjB3wkGTEnDG5Y?rlkey=4nf2fil3dwkxbjykxlsmdufuf&e=1&dl=0 which contains an excel file and an image file. The model built based on NVIDIA paper (https://arxiv.org/pdf/1604.07316v1.pdf).
 
 The project is about building a CNN model that computes steering angle as output, it follows those steps:
